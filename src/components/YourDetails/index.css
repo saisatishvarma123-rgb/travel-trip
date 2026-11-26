@@ -1,0 +1,113 @@
+.step-content-container {
+  padding: 40px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.step-heading {
+  color: #1e293b;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.step-description {
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.step-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 480px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.input-label {
+  color: #475569;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.text-input {
+  height: 40px;
+  padding: 8px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #334155;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.text-input:focus {
+  border-color: #2563eb;
+}
+
+.input-error-border {
+  border-color: #ef4444;
+}
+
+.error-message {
+  color: #ef4444;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.buttons-container.right-aligned {
+  justify-content: flex-end;
+}
+
+.buttons-container.space-between {
+  justify-content: space-between;
+}
+
+.primary-button {
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.primary-button:hover {
+  background-color: #1d4ed8;
+}
+
+.secondary-button {
+  background-color: transparent;
+  color: #2563eb;
+  border: 1px solid #2563eb;
+  border-radius: 6px;
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.secondary-button:hover {
+  background-color: #dbeafe;
+}

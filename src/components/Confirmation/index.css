@@ -1,0 +1,38 @@
+.confirmation-details-container {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 480px;
+  margin-bottom: 24px;
+}
+
+.confirmation-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.confirmation-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.confirmation-label {
+  color: #64748b;
+  font-size: 14px;
+  font-weight: 500;
+  min-width: 140px;
+  margin: 0;
+}
+
+.confirmation-value {
+  color: #1e293b;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}

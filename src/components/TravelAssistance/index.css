@@ -1,0 +1,48 @@
+.travel-assistance-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 480px;
+  margin-bottom: 24px;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.checkbox-input {
+  width: 18px;
+  height: 18px;
+  accent-color: #2563eb;
+  cursor: pointer;
+}
+
+.checkbox-label {
+  color: #334155;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.assistance-select-group {
+  margin-top: 8px;
+}
+
+.select-input {
+  height: 40px;
+  padding: 8px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #334155;
+  outline: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.select-input:focus {
+  border-color: #2563eb;
+}
